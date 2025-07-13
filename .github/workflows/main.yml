@@ -5,13 +5,10 @@ on:
     paths-ignore:
       - 'README.md'
     branches:
-      - main
+      - main1
   pull_request:
     branches:
-      - main
-  schedule:
-    # “At 00:00 on Sunday.”
-    - cron: "0 0 * * 0"
+      - main1
   workflow_dispatch:
 
 jobs:
